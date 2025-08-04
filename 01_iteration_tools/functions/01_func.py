@@ -2,7 +2,7 @@ def myFunction (user , age ) :
     print ("Hello", user )
     print ("You are", age , "years old")
 
-# myFunction("Saroj" , 21)
+# myFunction("Saroj" , 21)• 
 
 
 
@@ -29,3 +29,46 @@ countrySystem("Sweden")
 countrySystem("India")
 
 countrySystem("Brazil")
+
+
+# sum of 2 num   
+def sumNum (num1 , num2) :
+    return num1 + num2
+
+result = sumNum(2 , 3)
+print(result)
+
+def multNum(num1 , num2) :
+    return num1 * num2
+
+result = multNum( 'h' , 10)
+print(result)
+
+def circle(r) :
+     area = 3.14 * r * r
+     circumference = 2 * 3.14 * r
+
+     return area , circumference
+
+
+area , circumference = circle(10)
+print(area)
+print(circumference)
+
+
+cube_num = lambda x : x ** 30 
+
+print(cube_num(3))
+    
+
+def factorial(num) :
+    if num == 1 :
+         return 1 
+    else :
+        return num * factorial(num - 1)
+    
+
+print(factorial(5))
+
+
+
